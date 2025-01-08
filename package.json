@@ -19,7 +19,10 @@
 	"keywords": [
 		"api-rate-limit",
 		"express-api-rate-limit",
-		"nodejs-api-rate-limit"
+		"nodejs-api-rate-limit",
+		"express",
+		"rate limit",
+		"middleware"
 	],
 	"repository": {
 		"type": "git",
@@ -29,6 +32,6 @@
 		"url": "https://github.com/imirfanul/express-api-rate-limit/issues"
 	},
 	"homepage": "https://github.com/imirfanul/express-api-rate-limit#readme",
-	"author": "Your Name",
+	"author": "Md Irfanul Alam <irfanulalamtanvir@gmail.com>",
 	"license": "MIT"
 }
