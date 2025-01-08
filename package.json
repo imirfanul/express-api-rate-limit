@@ -1,0 +1,25 @@
+{
+  "name": "rate-limiter-package",
+  "version": "1.0.0",
+  "description": "A custom rate limiter for Express APIs using TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "@types/express": "^4.17.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/rate-limiter-package.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
