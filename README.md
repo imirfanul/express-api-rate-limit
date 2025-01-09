@@ -1,6 +1,6 @@
-# express-api-rate-limit
+# express-api-limiter
 
-`express-api-rate-limit` is a simple, lightweight, and flexible rate-limiting middleware for Express.js applications. It allows you to define custom rate limits for individual API routes, ensuring that clients can only make a specified number of requests within a given time window. This helps to prevent API abuse and overloads while maintaining a smooth user experience.
+`express-api-limiter` is a simple, lightweight, and flexible rate-limiting middleware for Express.js applications. It allows you to define custom rate limits for individual API routes, ensuring that clients can only make a specified number of requests within a given time window. This helps to prevent API abuse and overloads while maintaining a smooth user experience.
 
 ## Features
 - Custom rate-limiting for each route with flexible configurations.
@@ -14,7 +14,7 @@
 To install the package, run the following command in your project:
 
 ```bash
-npm install express-api-rate-limit
+npm install express-api-limiter
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install express-api-rate-limit
 ### 1. **Import the RateLimiter**
 
 ```typescript
-import { RateLimiter } from 'express-api-rate-limit';
+import { RateLimiter } from 'express-api-limiter';
 ```
 
 ### 2. **Create an Instance of RateLimiter**
@@ -37,7 +37,7 @@ You can apply the rate limiter directly to a specific route using `rateLimiter.m
 
 ```typescript
 import express from 'express';
-import { RateLimiter } from 'express-api-rate-limit';
+import { RateLimiter } from 'express-api-limiter';
 
 const app = express();
 const rateLimiter = new RateLimiter();
